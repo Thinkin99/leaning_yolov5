@@ -1,0 +1,8 @@
+train: YOLO_PORTnoaudio/images/train
+val: YOLO_PORTnoaudio/images/valid  
+
+# number of classes
+nc: 5
+
+# class names
+names: ['USB','Ethernet','VGA','HDMI','DVI']

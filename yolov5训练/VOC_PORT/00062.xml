@@ -1,0 +1,37 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>00062.jpg</filename>
+	<path>/my-project-name/00062.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1503</width>
+		<height>357</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Ethernet</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>232</xmin>
+			<ymin>41</ymin>
+			<xmax>392</xmax>
+			<ymax>172</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>VGA</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>865</xmin>
+			<ymin>215</ymin>
+			<xmax>1044</xmax>
+			<ymax>303</ymax>
+		</bndbox>
+	</object>
+</annotation>

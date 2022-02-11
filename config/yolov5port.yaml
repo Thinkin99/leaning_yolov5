@@ -1,0 +1,21 @@
+####################################
+## YoloV5模型卡片识别20类 配置文件
+####################################
+# YoloV5模型权重路径
+weight: "weights/best0127.pt"
+# 输入图像的尺寸
+input_size: 640
+# 类别个数
+class_num: 5
+# 标签名称
+class_name: [ "USB", "Ethernet","VGA" ,"HDMI","DVI" ]
+# 标签类的中文名称
+class_name_cn: [ "USB", "Ethernet","VGA" ,"HDMI","DVI" ]
+# 阈值设置
+threshold:
+  iou: 0.45
+  confidence: 0.6
+# 计算设备
+# - cpu
+# - 0 <- 使用GPU
+device: '0'
