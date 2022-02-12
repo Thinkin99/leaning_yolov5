@@ -2,7 +2,7 @@
 ## YoloV5模型卡片识别20类 配置文件
 ####################################
 # YoloV5模型权重路径
-weight:  "weights/nut_and_screw_yolov5n.pt"
+weight:  "weights/ns.pt"
 # 输入图像的尺寸
 input_size: 640
 # 类别个数
