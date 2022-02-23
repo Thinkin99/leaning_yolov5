@@ -244,7 +244,7 @@ if __name__ == '__main__':
             t_end = time.time()  # 结束计时\
             #canvas = np.hstack((canvas, depth_colormap))
             #print(class_id_list)
-            # 添加fps显示
+
             camera_xyz_list=[]
             if xyxy_list:
                 for i in range(len(xyxy_list)):
@@ -261,7 +261,7 @@ if __name__ == '__main__':
                     camera_xyz_list.append(camera_xyz)
             #print(camera_xyz_list)
 
-            
+            # 添加fps显示
             fps = int(1.0 / (t_end - t_start))
             cv2.putText(canvas, text="FPS: {}".format(fps), org=(50, 50),
                         fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, thickness=2,
